@@ -4,7 +4,7 @@ angular.module('app.network')
   var mySocket = $q.defer();
 
   ioLoader.done().then(function(io) {
-    var myIoSocket = io.connect(window.location.hostname);
+    var myIoSocket = io.connect();
 
     var aSock = socketFactory({
       ioSocket: myIoSocket

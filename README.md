@@ -12,6 +12,15 @@ Technologies used:
 * [node](http://nodejs.org)
 * [express](http://nodejs.org)
 
+## Installation
+```bash
+$ npm install
+$ cd client
+$ npm install
+$ bower install
+$ gulp
+$ cd..
+```
 
 ## Trying it out
 
